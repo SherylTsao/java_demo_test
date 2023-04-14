@@ -14,6 +14,15 @@ repositories {
 
 dependencies {
 	implementation 'org.springframework.boot:spring-boot-starter'
+	implementation 'org.springframework.boot:spring-boot-starter-web'//針對網站的依賴
+	//加入依賴?,所以要下載?右鍵gradle,refresh,再拿掉版本,再更新一次
+	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'//針對資料庫的依賴
+	
+	
+	// MySQI connector(連結資料庫)
+	implementation 'mysql:mysql-connector-java:8.0.31'
+	
+	
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
