@@ -34,6 +34,7 @@ public class PersonInfoTest {
 
 	@Test
 	public void findByNameOrCity() {
+//		
 		 List<PersonInfo> res = personInfoDao.findByNameOrCity("1", "«n");
 		 System.out.println(res.size()+"???????????");
 	}
