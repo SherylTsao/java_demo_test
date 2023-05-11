@@ -9,13 +9,18 @@ public class BankResponse {
 	private String message ;
 	
 
+	public BankResponse(Bank bank, String message) {
+		super();
+		this.bank = bank;
+		this.message = message;
+	}
+
 	public BankResponse() {
 		super();
 	}
 
-	public BankResponse(Bank bank, String message) {
+	public BankResponse(String message) {
 		super();
-		this.bank = bank;
 		this.message = message;
 	}
 

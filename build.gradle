@@ -18,6 +18,10 @@ dependencies {
 	//加入依賴?,所以要下載?右鍵gradle,refresh,再拿掉版本,再更新一次
 	implementation 'org.springframework.boot:spring-boot-starter-data-jpa'//針對資料庫的依賴
 	
+	//swagger
+	//implementation 'io.springfox:springfox-boot-starter:3.0.0'//Swagger 3.0,等同postman作用2023/05/08
+	//open Api
+	implementation 'org.springdoc:springdoc-openapi-ui:1.7.0'
 	
 	// MySQI connector(連結資料庫)
 	implementation 'mysql:mysql-connector-java:8.0.31'
